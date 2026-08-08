@@ -1,9 +1,3 @@
-# Coordinate Memory
-
-This directory contains memory address information related to player coordinates in **Animal Crossing e+**.
-
-The addresses documented here were discovered and tested using **Dolphin Emulator**.
-
 ## 1. Outdoor Player Y Coordinate
 
 During normal outdoor gameplay, the player's Y coordinate appears to be stored at one of the following memory addresses:
