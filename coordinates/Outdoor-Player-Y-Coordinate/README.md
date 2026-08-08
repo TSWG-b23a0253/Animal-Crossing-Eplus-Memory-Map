@@ -2,8 +2,8 @@
 
 During normal outdoor gameplay, the player's Y coordinate appears to be stored at one of the following memory addresses:
 
-- `0x814993B0`
-- `0x81499580`
+- `0x814993B0`　col.1
+- `0x81499580`　col.1
 
 Further investigation is required to determine the exact purpose and usage of each address.
 
