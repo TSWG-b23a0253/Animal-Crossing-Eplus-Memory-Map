@@ -1,0 +1,90 @@
+/bin/
+/target/
+
+/out/
+/build/
+/dist/
+/tmp/
+/temp/
+
+/node_modules/
+/.venv/
+/venv/
+/__pycache__/
+/*.pyc/
+
+/*.o
+/*.obj
+/*.exe
+/*.out
+
+# Eclipse
+.project
+.classpath
+.settings/
+.factorypath
+
+# IntelliJ / Java IDE
+.idea/
+*.iml
+
+# VSCode
+.vscode/*
+!.vscode/
+!.vscode/launch.json
+
+# Windows
+*:[Zz]one.Identifier
+
+# Java
+*.class
+/classes/
+src/classes/
+
+# Go
+*.test
+*.exe
+bin/
+vendor/
+
+# Rust (追加注意：基本targetだけでOK)
+Cargo.lock
+
+# Frontend / Vite
+.vite/
+*.tsbuildinfo
+coverage/
+storybook-static/
+.eslintcache
+.prettiercache
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env / secrets（重要）
+.env
+.env.*
+*.pem
+*.key
+*.pem
+*.p12
+*.pfx
+credentials
+service-account.json
+id_rsa
+id_ed25519
+
+# Docker
+docker-compose.override.yml
+
+# Python
+.ipynb_checkpoints/
+
+# Cache
+*.cache
+*.swp
+*.swo
