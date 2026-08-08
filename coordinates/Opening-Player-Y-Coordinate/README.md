@@ -33,10 +33,6 @@ The player's position can be changed by directly modifying the Y coordinate valu
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/91749c0f-7b8c-4509-a3b7-5abb46c761cb" />
 
 
-
 ## 1-2. Limitations During the Opening Sequence
 
-Unlike during normal outdoor gameplay, modifying the Y coordinate during the opening sequence does not appear to allow the player to enter the ocean or reach the deserted island.
-
-- The player does not appear to be able to enter the ocean.
-- The deserted island does not appear to be reachable.
+By modifying the Y coordinate during the opening sequence, the player can move partially into the ocean, but cannot travel far enough to reach the deserted island.
