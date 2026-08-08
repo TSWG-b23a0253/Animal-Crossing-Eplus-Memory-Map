@@ -14,6 +14,9 @@ This page contains miscellaneous memory addresses whose exact purposes have not 
 | `81476D80` | 4th | Camera rotation | Approximately `±180` |
 | `81476D90` | 4th | Possible redraw / refresh value | Exact behavior unknown |
 | `81476DC0` | 1st | Possible camera depth / distance | Returns to original value |
+| `8149C900` | 3rd | Villager X position during opening | Opening sequence |
+| `8149C910` | 1st | Villager Y position during opening | Opening sequence |
+| `8149C900` | 4th | Villager Z position during opening | Opening sequence |
 
 ## Notes
 
@@ -57,3 +60,13 @@ The exact behavior is currently unknown.
 `81476DC0` (1st column) appears to affect the camera's depth or distance.
 
 When manually modified, the value returns to its original value.
+
+### Villager Position During Opening
+
+The following addresses appear to represent the position of a villager during the opening sequence.
+
+- `8149C900` (3rd): X position
+- `8149C910` (1st): Y position
+- `8149C900` (4th): Z position
+
+These values appear to be specific to the opening sequence. Their exact purpose and whether they are used elsewhere in the game require further investigation.
