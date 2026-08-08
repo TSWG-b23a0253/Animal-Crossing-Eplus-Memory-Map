@@ -6,15 +6,17 @@ The addresses documented here were discovered and tested using **Dolphin Emulato
 
 </br>
 
-## Coordinate System
+## Coordinate System Used in This Documentation
 
-The player position is represented using three coordinates: X, Y, and Z.
+For consistency, this documentation defines the X, Y, and Z axes as follows:
 
 - **X-axis:** Left / Right
 - **Y-axis:** Forward / Backward
 - **Z-axis:** Height (Up / Down)
 
-The X and Y axes represent the player's position on the ground, while the Z-axis represents the player's height.
+In this documentation, the X and Y axes represent the ground plane, while the Z-axis represents height.
+
+> Note: These axis definitions are used throughout this documentation and are not intended to represent a general 3D coordinate system convention.
 
 ```text
       Z (Height)
@@ -25,3 +27,4 @@ The X and Y axes represent the player's position on the ground, while the Z-axis
      /
     /
    ↙ Y (Forward / Backward)
+```
